@@ -1,0 +1,445 @@
+body {
+  background: #0b0b36;
+  background: -webkit-linear-gradient(98deg, #0b0b36 0%, #321348 100%);
+  background: linear-gradient(98deg, #0b0b36 0%, #321348 100%);
+}
+
+/*///// Home page /////*/
+.glassmorph {
+  margin: 2% 15% 3%;
+  background: rgba(224, 217, 246, 0.35);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(224, 217, 246, 0.175);
+  border-radius: 20px;
+}
+
+.spire {
+  width: auto;
+  margin: 1% 10%;
+  background-color: #2a2356;
+  border-radius: 11px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0 2% 0;
+  font-family: "Cairo Play", cursive;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.notes {
+  width: auto;
+  margin: 0 10%;
+}
+
+.note {
+  background: rgba(224, 217, 246, 0.9);
+  border-radius: 7px;
+  box-shadow: 0 2px 6px #ccc;
+  padding: 0 0.8em 0.3em;
+  margin: 0.3em 0;
+  width: auto;
+}
+
+.note a {
+  font-size: 1em;
+  color: #586ae2;
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}
+
+.note p {
+  color: #2a2355;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0 1em 0 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*///// News page  /////*/
+
+.news-spire {
+  width: auto;
+  margin: 2% 7%;
+}
+
+.news-note {
+  background: rgba(224, 217, 246, 0.9);
+  width: auto;
+  margin: 1% 10%;
+  border-radius: 7px;
+  box-shadow: 0 2px 6px #ccc;
+  padding: 1% 0.8em 1%;
+  width: auto;
+}
+
+.news-note h2 {
+  margin: 0;
+}
+
+.news-note a {
+  font-size: 1em;
+  color: #586ae2;
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.news-note a:hover {
+  text-decoration: underline;
+}
+
+.news-note p {
+  color: #2a2355;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0 1em 0 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.news-comments {
+  background: rgba(224, 217, 246, 0.35);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(224, 217, 246, 0.175);
+  border-radius: 1rem;
+  width: auto;
+  margin: 1% 10%;
+  border-radius: 7px;
+  box-shadow: 0 2px 6px #ccc;
+  padding: 0 0.8em 0.3em;
+  width: auto;
+}
+
+/*///// Buttons /////*/
+.refresh-btn {
+  background: #c252e1;
+  background: #6ecbf5;
+  background-image: -webkit-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: -moz-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: -ms-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: -o-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: linear-gradient(to bottom, #c252e1, #6ecbf5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border: solid #1f628d 2px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 2%;
+}
+
+.refresh-btn:hover {
+  background: #c252e1;
+  background-image: -webkit-linear-gradient(top, #c252e1, #586ae2);
+  background-image: -moz-linear-gradient(top, #c252e1, #586ae2);
+  background-image: -ms-linear-gradient(top, #c252e1, #586ae2);
+  background-image: -o-linear-gradient(top, #c252e1, #586ae2);
+  background-image: linear-gradient(to bottom, #c252e1, #586ae2);
+  text-decoration: none;
+}
+
+.newspage-btn {
+  font-size: 10px;
+  background: #c252e1;
+  background: #6ecbf5;
+  background-image: -webkit-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: -moz-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: -ms-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: -o-linear-gradient(top, #c252e1, #6ecbf5);
+  background-image: linear-gradient(to bottom, #c252e1, #6ecbf5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  padding: 7px;
+  margin: 0 1%;
+}
+
+.newspage-btn:hover {
+  background: #c252e1;
+  background-image: -webkit-linear-gradient(top, #c252e1, #586ae2);
+  background-image: -moz-linear-gradient(top, #c252e1, #586ae2);
+  background-image: -ms-linear-gradient(top, #c252e1, #586ae2);
+  background-image: -o-linear-gradient(top, #c252e1, #586ae2);
+  background-image: linear-gradient(to bottom, #c252e1, #586ae2);
+  text-decoration: none;
+}
+
+/*///// Styling comments in second News page /////*/
+/* Comment - базовый класс для всех комментариев
+root-comment - класс для корневых комментариев
+nested-comment - класс для вложенных комментариев
+has-replies - класс для комментариев, имеющих вложенные комментарии
+no-replies - класс для комментариев, не имеющих вложенных комментариев
+clickable - класс для корневых комментариев, которые можно раскрыть для просмотра вложенных комментариев */
+.Comment {
+  font-size: 1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 1rem;
+  border: 1px solid #e1e1e1;
+  background: rgba(224, 217, 246, 0.9);
+}
+
+.root-comment {
+  font-size: 0.9em;
+}
+
+.Comment p {
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+.Comment strong {
+  font-weight: bold;
+}
+
+.Comment .clickable {
+  cursor: pointer;
+}
+
+/*///// Glitch in main heading /////*/
+.glitch-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #2a2356;
+}
+
+.glitch {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  letter-spacing: 4px;
+  z-index: 1;
+}
+
+.glitch:before {
+  content: attr(data-glitch);
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 100%;
+  color: #fff;
+  background-color: #2a2356;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-before 3s infinite linear alternate-reverse;
+}
+
+.glitch:after {
+  content: attr(data-glitch);
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 100%;
+  color: #fff;
+  background-color: #2a2356;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-after 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-before {
+  0% {
+    clip: rect(61px, 9999px, 52px, 0);
+  }
+
+  5% {
+    clip: rect(33px, 9999px, 144px, 0);
+  }
+
+  10% {
+    clip: rect(121px, 9999px, 115px, 0);
+  }
+
+  15% {
+    clip: rect(144px, 9999px, 162px, 0);
+  }
+
+  20% {
+    clip: rect(62px, 9999px, 180px, 0);
+  }
+
+  25% {
+    clip: rect(34px, 9999px, 42px, 0);
+  }
+
+  30% {
+    clip: rect(147px, 9999px, 179px, 0);
+  }
+
+  35% {
+    clip: rect(99px, 9999px, 63px, 0);
+  }
+
+  40% {
+    clip: rect(188px, 9999px, 122px, 0);
+  }
+
+  45% {
+    clip: rect(154px, 9999px, 14px, 0);
+  }
+
+  50% {
+    clip: rect(63px, 9999px, 37px, 0);
+  }
+
+  55% {
+    clip: rect(161px, 9999px, 147px, 0);
+  }
+
+  60% {
+    clip: rect(109px, 9999px, 175px, 0);
+  }
+
+  65% {
+    clip: rect(157px, 9999px, 88px, 0);
+  }
+
+  70% {
+    clip: rect(173px, 9999px, 131px, 0);
+  }
+
+  75% {
+    clip: rect(62px, 9999px, 70px, 0);
+  }
+
+  80% {
+    clip: rect(24px, 9999px, 153px, 0);
+  }
+
+  85% {
+    clip: rect(138px, 9999px, 40px, 0);
+  }
+
+  90% {
+    clip: rect(79px, 9999px, 136px, 0);
+  }
+
+  95% {
+    clip: rect(25px, 9999px, 34px, 0);
+  }
+
+  100% {
+    clip: rect(173px, 9999px, 166px, 0);
+  }
+}
+
+@keyframes noise-after {
+  0% {
+    clip: rect(26px, 9999px, 33px, 0);
+  }
+
+  5% {
+    clip: rect(140px, 9999px, 198px, 0);
+  }
+
+  10% {
+    clip: rect(184px, 9999px, 89px, 0);
+  }
+
+  15% {
+    clip: rect(121px, 9999px, 6px, 0);
+  }
+
+  20% {
+    clip: rect(181px, 9999px, 99px, 0);
+  }
+
+  25% {
+    clip: rect(154px, 9999px, 133px, 0);
+  }
+
+  30% {
+    clip: rect(134px, 9999px, 169px, 0);
+  }
+
+  35% {
+    clip: rect(26px, 9999px, 187px, 0);
+  }
+
+  40% {
+    clip: rect(147px, 9999px, 137px, 0);
+  }
+
+  45% {
+    clip: rect(31px, 9999px, 52px, 0);
+  }
+
+  50% {
+    clip: rect(191px, 9999px, 109px, 0);
+  }
+
+  55% {
+    clip: rect(74px, 9999px, 54px, 0);
+  }
+
+  60% {
+    clip: rect(145px, 9999px, 75px, 0);
+  }
+
+  65% {
+    clip: rect(153px, 9999px, 198px, 0);
+  }
+
+  70% {
+    clip: rect(99px, 9999px, 136px, 0);
+  }
+
+  75% {
+    clip: rect(118px, 9999px, 192px, 0);
+  }
+
+  80% {
+    clip: rect(1px, 9999px, 83px, 0);
+  }
+
+  85% {
+    clip: rect(145px, 9999px, 98px, 0);
+  }
+
+  90% {
+    clip: rect(121px, 9999px, 154px, 0);
+  }
+
+  95% {
+    clip: rect(156px, 9999px, 44px, 0);
+  }
+
+  100% {
+    clip: rect(67px, 9999px, 122px, 0);
+  }
+}
