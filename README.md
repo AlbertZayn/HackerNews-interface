@@ -1,8 +1,11 @@
 Инструкция по запуску:
 - Скачать проект
+
 Запустить
 - `npm install` - загрузка модулей
 - `npm start`
+
+[Demo](https://codesandbox.io/s/hacker-news-interface-forked-xrllxv) 
 
 
 Разработать интерфейс для сайта [Hacker News](https://news.ycombinator.com/news), состоящий из двух страниц.
