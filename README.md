@@ -5,8 +5,8 @@
 - `npm install` - загрузка модулей
 - `npm start`
 
-[Demo](https://codesandbox.io/s/hacker-news-interface-forked-xrllxv) 
-![Hacker-News-interface-forked-CodeSandbox](https://user-images.githubusercontent.com/108021063/230174099-1e3ea682-8bed-4460-81c9-b41792b6263e.png)
+#[Demo](https://codesandbox.io/s/hacker-news-interface-forked-xrllxv) 
+
 
 ***
 Разработать интерфейс для сайта [Hacker News](https://news.ycombinator.com/news), состоящий из двух страниц.
