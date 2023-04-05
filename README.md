@@ -5,7 +5,7 @@
 - `npm install` - загрузка модулей
 - `npm start`
 
-#[Demo](https://codesandbox.io/s/hacker-news-interface-forked-xrllxv) 
+[#Demo](https://codesandbox.io/s/hacker-news-interface-forked-xrllxv) 
 
 
 ***
