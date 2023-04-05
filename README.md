@@ -7,7 +7,7 @@
 
 [Demo](https://codesandbox.io/s/hacker-news-interface-forked-xrllxv) 
 
-
+***
 Разработать интерфейс для сайта [Hacker News](https://news.ycombinator.com/news), состоящий из двух страниц.
 
 Немного [изменённое ТЗ](https://github.com/avito-tech/ap-frontend-trainee-assignment)
