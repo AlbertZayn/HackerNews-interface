@@ -6,7 +6,8 @@
 - `npm start`
 
 [Demo](https://codesandbox.io/s/hacker-news-interface-forked-xrllxv) 
-![React-App](https://user-images.githubusercontent.com/108021063/230173306-c75e1492-8ced-4ce8-ae35-b1217d5a20f5.png)
+![React App](https://user-images.githubusercontent.com/108021063/230173911-36dd6d10-7e15-4689-9b4b-e1641549d02f.png)
+
 
 ***
 Разработать интерфейс для сайта [Hacker News](https://news.ycombinator.com/news), состоящий из двух страниц.
